@@ -40,8 +40,8 @@ const profile = {
     "https://res.cloudinary.com/dshe5kflb/image/upload/v1771849463/cprofile_ivaqyt.jpg",
   email: "marvellogisticsandautos.com",
   serviceEmail: "marvellogisticsandautos.com",
-  phone2: "+234 56 163 0727",
-  whatsapp: "+234 56 163 0727",
+  phone2: "+233 56 163 0727",
+  whatsapp: "+233 56 163 0727",
   snapchat: "@wealthymarvel",
   mission:
     "To be a leading, dynamic car dealership by providing our clients fast access to both international and local vehicle markets easily and conveniently.",
