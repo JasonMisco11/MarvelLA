@@ -29,8 +29,8 @@ const profile = {
   bio: "Marvel Logistics and Auto is a premier dealership offering a wide range of new, used and freshly imported vehicles. We provide unparalleled customer service and top quality vehicles, ensuring a seamless and satisfying car buying experience for every customer.",
   image:
     "https://res.cloudinary.com/dshe5kflb/image/upload/v1771849463/cprofile_ivaqyt.jpg",
-  email: "marvel@marvella.com",
-  serviceEmail: "service@marvella.com",
+  email: "marvellogisticsandautos.com",
+  serviceEmail: "marvellogisticsandautos.com",
   phone: "+234 80 399 32354",
   phone2: "+233 54 951 0593",
   whatsapp: "+233 54 951 0593",
@@ -287,7 +287,7 @@ END:VCARD`;
             <FaCar size={10} /> PREMIER DEALERSHIP
           </div>
 
-          {/* Theme Toggle */}
+         
           <button
             onClick={(e) => { e.stopPropagation(); setIsDark(!isDark); }}
             className="absolute top-6 left-6 w-10 h-10 rounded-full flex items-center justify-center transition-all duration-300 active:scale-90 z-20 backdrop-blur-md"
