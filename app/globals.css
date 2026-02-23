@@ -43,3 +43,28 @@ body {
   -ms-overflow-style: none !important;
   scrollbar-width: none !important;
 }
+
+/* Quick Action button hover micro-interactions */
+.qa-btn {
+  transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1),
+              box-shadow 0.25s ease,
+              filter 0.25s ease !important;
+}
+.qa-btn:hover {
+  transform: translateY(-3px) scale(1.04);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  filter: brightness(1.12);
+}
+.qa-btn:active {
+  transform: translateY(0px) scale(0.97);
+  box-shadow: none;
+}
+.qa-btn:hover svg {
+  animation: qa-icon-bounce 0.4s ease;
+}
+@keyframes qa-icon-bounce {
+  0% { transform: scale(1); }
+  40% { transform: scale(1.25); }
+  70% { transform: scale(0.95); }
+  100% { transform: scale(1); }
+}
